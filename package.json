@@ -1,6 +1,6 @@
 {
   "name": "@p24/react-cropperjs",
-  "version": "1.2.6",
+  "version": "1.3.0",
   "description": "Cropper as a React component",
   "main": "dist/react-cropper1.js",
   "scripts": {
@@ -11,9 +11,9 @@
     "prebuild": "npm run lint",
     "build-example": "npm run build && webpack example/index.js --config example/webpack.config.js --output-path example/assets"
   },
-  "author": "Petar Bojinov <petar@tapptv.com>",
+  "author": "Andy Jakson",
   "bugs": {
-    "url": "https://github.com/TAPP-TV/react-cropperjs/issues"
+    "url": "https://github.com/Asp3ctus/react-cropperjs/issues"
   },
   "keywords": [
     "react",
@@ -24,7 +24,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/TAPP-TV/react-cropperjs.git"
+    "url": "https://github.com/Asp3ctus/react-cropperjs.git"
   },
   "dependencies": {
     "cropperjs": "^1.4.3",
